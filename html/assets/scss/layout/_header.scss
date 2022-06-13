@@ -1,0 +1,33 @@
+.header-top {
+    color: white;
+    background-color: rgb(57, 57, 226);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-phone {
+    a {
+        padding: 10px;
+        color: white;
+    }
+}
+
+.heder-social-media {
+    float: right;
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+            display: inline-block;
+            a {
+                padding: 15px;
+                color: white;
+                border-left: 1px solid rgb(155, 155, 155);
+            }
+        }
+    }
+}

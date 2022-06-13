@@ -1,0 +1,54 @@
+﻿@model Car
+@{
+    ViewData["Title"] = "Edit";
+}
+<form method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label asp-for="BrandId" ></label>
+    <input asp-for="BrandId" class="form-control">
+    <span asp-validation-for="BrandId"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="MarkaId" ></label>
+    <input asp-for="MarkaId" class="form-control">
+    <span asp-validation-for="MarkaId"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Door" ></label>
+    <input asp-for="Door" class="form-control">
+    <span asp-validation-for="Door"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Seat" ></label>
+    <input asp-for="Seat" class="form-control">
+    <span asp-validation-for="Seat"></span>
+  </div>
+  <div class="form-check">
+    <label asp-for="AirConduction" ></label>
+    <input asp-for="AirConduction" class="form-check-input">
+    <span asp-validation-for="AirConduction"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Age" ></label>
+    <input asp-for="Age" class="form-control">
+    <span asp-validation-for="Age"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="TransmisionId" class="form-check-label"></label>
+    <input asp-for="TransmisionId" class="form-control">
+    <span asp-validation-for="TransmisionId"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Price" ></label>
+    <input asp-for="Price" class="form-control">
+    <span asp-validation-for="Price"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Image" ></label>
+    <input asp-for="Image" class="form-control">
+    <span asp-validation-for="Image"></span>
+  </div>
+  <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+

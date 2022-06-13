@@ -1,0 +1,221 @@
+.header-top {
+    color: white;
+    background-color: #3939e2;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-phone a {
+    padding: 10px;
+    color: white;
+}
+
+.heder-social-media {
+    float: right;
+}
+
+.heder-social-media ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heder-social-media ul li {
+    display: inline-block;
+}
+
+.heder-social-media ul li a {
+    padding: 15px;
+    color: white;
+    border-left: 1px solid #9b9b9b;
+}
+
+#Intro {
+    background-image: url(/assets/images/car_banner.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#Intro .intro-content {
+    position: relative;
+}
+
+#Intro .intro-content .intro-text {
+    position: absolute;
+    top: 300px;
+    color: white;
+}
+
+#Intro .intro-content .intro-text p {
+    font-size: 22px;
+}
+
+#Intro .intro-search {
+    position: relative;
+}
+
+#Intro .intro-search .intro-search-card {
+    width: 330px;
+    box-sizing: border-box;
+    background-color: rgba(51, 51, 255, 0.788);
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+#Intro .intro-search .intro-search-card form {
+    padding: 10px;
+    color: white;
+}
+
+.section-header {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.section-header span {
+    color: blue;
+    font-weight: 700;
+}
+
+#OurOffers .offers-text {
+    width: 80%;
+    margin: auto;
+    color: #aaaaaa;
+}
+
+#OurOffers .offers-part {
+    margin-top: 40px;
+}
+
+#OurOffers .offers-part-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#OurOffers .offers-part-icon i {
+    background-color: blue;
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+}
+
+#OurOffers .offers-img {
+    height: 500px;
+}
+
+#OurOffers .offers-img img {
+    width: 100%;
+    max-height: 100%;
+}
+
+#Vehicle {
+    background-color: #f5f8fc;
+    padding: 60px 0;
+}
+
+#Vehicle .car-btn {
+    margin-top: 1px;
+    border-left: 4px solid #222222;
+    padding: 20px 10px;
+    width: 100%;
+    background-color: #bdbdbd;
+}
+
+#Vehicle .active {
+    background-color: white;
+    border-color: blue;
+    border-bottom: 1px solid gray;
+}
+
+#Vehicle .car-btn:hover {
+    background-color: white;
+    border-bottom: 1px solid;
+    border-color: blue;
+}
+
+#Vehicle img {
+    width: 100%;
+    height: 100%;
+}
+
+#Vehicle .car-btn-part {
+    width: 30%;
+    float: left;
+}
+
+#Vehicle .car-about-part {
+    width: 70%;
+}
+
+#Vehicle .car-about {
+    padding: 10px;
+    border: 1px solid lightgray;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#Vehicle .car-about .car-price {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+}
+
+#Vehicle .car-about .car-price small {
+    font-weight: 600;
+    color: black;
+}
+
+#Vehicle .car-about .car-about-part {
+    padding: 7px 0;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+#Vehicle .car-about .car-about-part span {
+    float: right;
+}
+
+#counter {
+    background-image: url(/assets/images/counter-bg.jpg);
+    background-size: 100%;
+    color: white;
+    margin: 60px 0;
+    padding: 30px;
+}
+
+#counter .counter-icon {
+    font-size: 62px;
+}
+
+#counter .counter-count {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#counter .counter-text {
+    font-weight: bold;
+}
+
+#Footer-form {
+    padding: 60px 0;
+}
+
+#Footer-form .footer-form {
+    background-color: #2b2b2b;
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*# sourceMappingURL=style.css.map */
